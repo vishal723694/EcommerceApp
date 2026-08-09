@@ -259,9 +259,18 @@ url: https://vishal723694.github.io/EcommerceApplication/
 
   - Now try running Project and Check if the changes are done or not.
 
-   
-
+### Recent Architectural Enhancements & New Features
+- **Security & Validation (`ValidationUtil.java`)**: Input sanitization against XSS attacks, regex validation for emails/phones, and SHA-256 password hashing.
+- **Portable DB Resolver (`DBConnect.java`)**: Dynamic resolution of SQLite database path for cross-platform portability.
+- **Product Keyword Search (`SearchProductServlet.java`)**: Fast keyword-based product search backed by custom SQL queries.
+- **Stock Management (`Product.java`)**: Real-time stock status badge and availability checks.
+- **Currency & GST Calculator (`CurrencyUtil.java`)**: Localized INR (`₹`) formatting and tax/order total calculations.
+- **Custom Exception Handling (`error.jsp`)**: User-friendly, responsive fallback page for 404/500 errors.
+- **Navigation Bar Search Integration (`navbar.jsp`)**: Header search form for instant product discovery.
+- **Wishlist Entity (`Wishlist.java`)**: Data model supporting user product bookmarking.
+- **RESTful API Endpoint (`ProductApiServlet.java`)**: `/api/products` JSON endpoint for AJAX or mobile integration.
 
 ### Project Creator: Vishal
+
 
 
