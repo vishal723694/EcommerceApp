@@ -43,6 +43,13 @@
 	
 	<a href="aboutus.jsp" class="w3-bar-item w3-button">About Us</a>&ensp;
 	
+	<div style="display: inline-block; margin-left: 15px;">
+		<form action="searchProduct" method="get" style="display: flex; align-items: center;">
+			<input type="text" name="query" placeholder="Search products..." required style="padding: 4px 10px; border-radius: 4px; border: 1px solid #ccc; font-size: 14px;">
+			<button type="submit" style="margin-left: 5px; padding: 4px 12px; border-radius: 4px; border: none; background-color: #0d6efd; color: white; cursor: pointer; font-size: 14px;">Search</button>
+		</form>
+	</div>
+	
 	</div>
 	<hr>
 	
