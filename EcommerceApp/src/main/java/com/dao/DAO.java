@@ -300,5 +300,33 @@ public List<customer> getCustomer(String eid)
 	
 	return list;
 }
+
+	/**
+	 * Search products by keyword in product name
+	 */
+	public List<Product> searchProducts(String query) {
+		List<Product> list = new ArrayList<Product>();
+		try {
+			String sql = "select * from product where pname like ?";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, "%" + query + "%");
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()) {
+				Product p = new Product();
+				p.setPid(rs.getInt(1));
+				p.setPname(rs.getString(2));
+				p.setPprice(rs.getInt(3));
+				p.setPquantity(rs.getInt(4));
+				p.setPimage(rs.getString(5));
+				p.setBid(rs.getInt(6));
+				p.setCid(rs.getInt(7));
+				list.add(p);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return list;
+	}
 	
 }
+
