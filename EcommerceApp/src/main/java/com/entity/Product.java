@@ -53,5 +53,13 @@ public class Product {
 		this.cid = cid;
 	}
 	
+	public boolean isInStock() {
+		return this.pquantity > 0;
+	}
+	
+	public String getStockBadge() {
+		return isInStock() ? "In Stock (" + pquantity + ")" : "Out of Stock";
+	}
 	
 }
+
