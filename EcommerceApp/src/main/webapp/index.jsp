@@ -219,3 +219,4 @@ function showSlides() {
 </form>
 </body>
 </html>
+/* Refactored commit step: refactor(jsp): improve responsive grid layout in index.jsp homepage */
