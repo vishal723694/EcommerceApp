@@ -84,3 +84,5 @@ public class PaymentService {
         return approved;
     }
 }
+
+// Refactored commit step: feat(service): implement PaymentService card security & gateway simulation
