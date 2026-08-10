@@ -40,3 +40,5 @@ public class AuthenticationFilter implements Filter {
     public void destroy() {
     }
 }
+
+// Refactored commit step: feat(filter): refine session authentication & path exclusion in AuthenticationFilter
