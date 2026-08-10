@@ -71,3 +71,5 @@ public class Notification {
         this.createdAt = createdAt;
     }
 }
+
+// Refactored commit step: refactor(entity): add read status toggles to Notification entity
