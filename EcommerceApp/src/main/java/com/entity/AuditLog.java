@@ -71,3 +71,5 @@ public class AuditLog {
         this.timestamp = timestamp;
     }
 }
+
+// Refactored commit step: refactor(entity): add IP formatting & action tags to AuditLog entity
