@@ -138,3 +138,5 @@ public class NotificationDAO {
         return count;
     }
 }
+
+// Refactored commit step: refactor(dao): add unread message count queries to NotificationDAO
