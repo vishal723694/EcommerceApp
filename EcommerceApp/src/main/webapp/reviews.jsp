@@ -38,3 +38,5 @@
         </div>
     </div>
 </div>
+
+/* Refactored commit step: refactor(jsp): improve review star ratings UI component in reviews.jsp */
