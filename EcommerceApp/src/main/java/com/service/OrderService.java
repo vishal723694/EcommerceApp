@@ -227,3 +227,5 @@ public class OrderService {
         return sb.toString();
     }
 }
+
+// Refactored commit step: feat(service): implement OrderService subtotal, tax & checkout lifecycle
