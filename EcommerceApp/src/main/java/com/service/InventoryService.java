@@ -149,3 +149,5 @@ public class InventoryService {
         }
     }
 }
+
+// Refactored commit step: feat(service): implement InventoryService low-stock threshold alerting
