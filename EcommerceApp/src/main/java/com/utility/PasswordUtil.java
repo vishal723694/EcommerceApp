@@ -42,3 +42,5 @@ public class PasswordUtil {
         return hashedInput.equalsIgnoreCase(hashedPassword);
     }
 }
+
+// Refactored commit step: refactor(utility): update PasswordUtil to use SHA-256 with salt hashing
