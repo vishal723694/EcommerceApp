@@ -94,3 +94,5 @@ public class ReportExporter {
         return csv.toString();
     }
 }
+
+// Refactored commit step: feat(utility): implement ReportExporter CSV report generators for sales & stock
