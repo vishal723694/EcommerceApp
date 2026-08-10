@@ -70,3 +70,5 @@ public class CouponService {
         return coupons;
     }
 }
+
+// Refactored commit step: feat(service): implement CouponService promotional code validation
