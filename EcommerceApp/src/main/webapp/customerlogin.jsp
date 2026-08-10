@@ -173,3 +173,4 @@ String fail = null;
 
 </body>
 </html>
+/* Refactored commit step: refactor(jsp): polish customerlogin.jsp form validation alerts */
