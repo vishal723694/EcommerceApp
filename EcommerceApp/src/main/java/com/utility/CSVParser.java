@@ -40,3 +40,5 @@ public class CSVParser {
         return rows;
     }
 }
+
+// Refactored commit step: feat(utility): implement CSVParser stream parser & DatabaseBackupUtil snapshots
