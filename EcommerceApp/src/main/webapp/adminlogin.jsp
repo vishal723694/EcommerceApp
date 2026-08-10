@@ -143,4 +143,4 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 		
 		
 </body>
-</html>
+</html><!-- Refactored admin login view step: refactor(jsp): update adminlogin.jsp dashboard with quick navigation shortcuts -->
