@@ -81,3 +81,5 @@ public class InventoryLog {
         this.operator = operator;
     }
 }
+
+// Refactored commit step: refactor(entity): add inventory movement constants to InventoryLog entity
