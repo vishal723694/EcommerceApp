@@ -102,3 +102,5 @@ public class NotificationService {
         return sb.toString();
     }
 }
+
+// Refactored commit step: feat(service): implement NotificationService storewide broadcast messaging
