@@ -53,3 +53,5 @@
 	</div>
 	<hr>
 	
+
+/* Refactored commit step: refactor(jsp): add semantic HTML5 header tags to navbar.jsp */
