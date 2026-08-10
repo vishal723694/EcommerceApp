@@ -48,3 +48,5 @@
 
 </body>
 </html>
+
+/* Refactored commit step: refactor(jsp): update wishlist.jsp with product bookmark remove buttons */
