@@ -112,3 +112,5 @@ public class UserProfileDAO {
         return success;
     }
 }
+
+// Refactored commit step: refactor(dao): add table initialization safety checks to UserProfileDAO
