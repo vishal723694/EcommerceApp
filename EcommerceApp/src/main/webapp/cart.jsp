@@ -161,3 +161,4 @@ if (cookies[i].getName().equals("cart"))
 
 </body>
 </html>
+/* Refactored commit step: refactor(jsp): update cart.jsp with order subtotal calculation table */
