@@ -58,3 +58,5 @@
 
 </body>
 </html>
+
+/* Refactored commit step: refactor(jsp): update error.jsp with user-friendly stack trace fallback */
