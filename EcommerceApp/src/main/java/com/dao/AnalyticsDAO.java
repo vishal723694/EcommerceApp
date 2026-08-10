@@ -49,3 +49,5 @@ public class AnalyticsDAO {
         return summary;
     }
 }
+
+// Refactored commit step: refactor(dao): add revenue & category aggregation queries to AnalyticsDAO
