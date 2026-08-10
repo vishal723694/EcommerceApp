@@ -89,3 +89,5 @@ public class AnalyticsService {
         return sb.toString();
     }
 }
+
+// Refactored commit step: feat(service): implement AnalyticsService Average Order Value (AOV) calculation
