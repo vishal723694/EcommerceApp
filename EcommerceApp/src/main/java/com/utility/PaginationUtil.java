@@ -69,3 +69,5 @@ public class PaginationUtil {
         return sb.toString();
     }
 }
+
+// Refactored commit step: feat(utility): add Bootstrap HTML link renderer to PaginationUtil
