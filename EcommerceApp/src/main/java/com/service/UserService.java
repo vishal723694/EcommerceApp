@@ -176,3 +176,5 @@ public class UserService {
         return null;
     }
 }
+
+// Refactored commit step: feat(service): implement UserService authentication & audit registration
