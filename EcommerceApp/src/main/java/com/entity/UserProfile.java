@@ -91,3 +91,4 @@ public class UserProfile {
         this.bio = bio;
     }
 }
+// Refactored domain annotations
