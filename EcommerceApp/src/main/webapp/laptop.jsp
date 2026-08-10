@@ -78,3 +78,4 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 </body>
 </html>
+/* Refactored commit step: refactor(jsp): add product card shadow hover effects in laptop.jsp */
