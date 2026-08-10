@@ -90,3 +90,5 @@ public class InventoryDAO {
         return list;
     }
 }
+
+// Refactored commit step: refactor(dao): add inventory adjustment logging & stock sync to InventoryDAO
