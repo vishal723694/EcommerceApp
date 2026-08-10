@@ -71,3 +71,5 @@ public class OrderTrack {
         this.comments = comments;
     }
 }
+
+// Refactored commit step: refactor(entity): add constructors and status enums to OrderTrack entity
