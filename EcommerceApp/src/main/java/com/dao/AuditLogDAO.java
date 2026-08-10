@@ -79,3 +79,5 @@ public class AuditLogDAO {
         return list;
     }
 }
+
+// Refactored commit step: refactor(dao): add audit trail query limiters to AuditLogDAO
