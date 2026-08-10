@@ -61,3 +61,5 @@ public class SalesSummary {
         this.period = period;
     }
 }
+
+// Refactored commit step: refactor(entity): add revenue formatting & period getters to SalesSummary DTO
